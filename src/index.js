@@ -1,4 +1,3 @@
-alert('hello')
 import header from "./sections/navbar"
 import banner from "./sections/banner"
 import hero from "./sections/hero"

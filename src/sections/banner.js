@@ -4,9 +4,9 @@ const banner = function() {
     const divImg = document.createElement('div')
 const banner = document.createElement('img')
 
-banner.src = banner;
+banner.src = bannerImg;
 
-divImg.classList = " bannerImg"
+divImg.classList = " banner"
 
 divImg.appendChild(banner)
 content.appendChild(divImg)
