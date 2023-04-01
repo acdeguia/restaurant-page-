@@ -4,7 +4,7 @@ import salads from '../images/salads.png'
 
 const menu = function() {
   const menuPage = document.createElement('div')
-  menuPage.innerHTML = `<h2> <span>Our </span> Menu </h2>
+  menuPage.innerHTML = `<h2> <span>Our &nbsp;</span>Menu </h2>
   
   <div class="appetizers">
       <h3>Appetizers</h3>
