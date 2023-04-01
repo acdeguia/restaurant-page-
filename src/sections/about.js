@@ -1,4 +1,5 @@
-const aboutPage = document.createElement('div')
+const about = function() {
+    const aboutPage = document.createElement('div')
 const aboutH2 = document.createElement('h2')
 const aboutPara = document.createElement('p')
 
@@ -9,3 +10,4 @@ aboutPage.appendChild(aboutH2)
 aboutPage.appendChild(aboutPara)
 aboutPage.classList = ' about'
 content.appendChild(aboutPage)
+}

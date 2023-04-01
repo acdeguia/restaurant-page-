@@ -1,4 +1,5 @@
-const contactSection = document.createElement('div')
+const contact = function() {
+  const contactSection = document.createElement('div')
 contactSection.classList = ' contacts'
 
 let contact = ["Locate Us", "Open Hours", "Reservation"];
@@ -15,3 +16,4 @@ for(let i = 0; i < contact.length; i += 1) {
     contactSection.appendChild(div);
 }
     content.appendChild(contactSection)
+}

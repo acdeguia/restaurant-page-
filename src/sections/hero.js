@@ -1,4 +1,5 @@
-const hero = document.createElement('div')
+const hero = function() {
+    const hero = document.createElement('div')
 const tagline = document.createElement('div')
 const h1 = document.createElement('h1')
 const para = document.createElement('p')
@@ -36,3 +37,4 @@ hero.classList = ' hero-section'
 restoImg.classList = ' resto-img'
 
 menuBtn.classList = 'menu-btn'
+}

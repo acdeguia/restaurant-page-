@@ -1,4 +1,4 @@
-const headerPage = function(){
+const header = function(){
   const content = document.querySelector("#content");
       const header = document.createElement("header");
       const navBar = document.createElement("div");
