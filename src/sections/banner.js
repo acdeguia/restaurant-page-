@@ -1,10 +1,12 @@
+import bannerImg from '../images/banner.png'
+
 const banner = function() {
     const divImg = document.createElement('div')
 const banner = document.createElement('img')
 
-banner.src = './src/images/banner.png'
+banner.src = banner;
 
-divImg.classList = " banner"
+divImg.classList = " bannerImg"
 
 divImg.appendChild(banner)
 content.appendChild(divImg)

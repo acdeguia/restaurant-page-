@@ -7,13 +7,13 @@ const testimonials = function(){
   </div>
   
   <div class="quote">
-    <img src="./src/images/quote-icon.png" alt="">
+    <img src="../src/images/quote-icon.png" alt="">
     <p>
       I never thought vegan food could be so flavorful and satisfying! This restaurant has truly opened my eyes to the possibilities of plant-based cuisine.
     </p>
     
     <div class="info">
-      <img src="./src/images/pfp.png" alt="">
+      <img src="../src/images/pfp.png" alt="">
       <div class="name">
         <p>Wheein</p>
       <p>Korean Idol</p>

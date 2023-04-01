@@ -1,3 +1,7 @@
+import hero1 from '../images/hero-image-1.png'
+import hero2 from '../images/hero-image-2.png'
+import hero3 from '../images/hero-image-3.png'
+
 const hero = function() {
     const hero = document.createElement('div')
 const tagline = document.createElement('div')
@@ -11,12 +15,14 @@ const img3 = document.createElement('img')
 
 const menuBtn = document.createElement('button')
 
+menuBtn.addEventListener('click', btn)
+
 h1.innerHTML = 'Welcome to the Green Oasis'
 para.innerHTML = 'Where every dish is a celebration of life.'
 
-img1.src = './src/images/hero-image-1.png'
-img2.src = './src/images/hero-image-2.png'
-img3.src = './src/images/hero-image-3.png'
+img1.src = hero1;
+img2.src = hero2;
+img3.src = hero3;
 
 menuBtn.innerHTML = 'MENU'
 
@@ -37,6 +43,10 @@ hero.classList = ' hero-section'
 restoImg.classList = ' resto-img'
 
 menuBtn.classList = 'menu-btn'
+
+function btn() {
+    window.scrollTo(0, 1550);
+  }
 }
 
 export default hero;

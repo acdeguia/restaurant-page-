@@ -11,6 +11,7 @@ import testimonials from "./sections/testimonials"
 header()
 hero()
 contact()
+banner()
 about()
 menu()
 testimonials()

@@ -1,10 +1,14 @@
+import appetizers from '../images/appetizers.png'
+import entrees from '../images/entrees.png'
+import salads from '../images/salads.png'
+
 const menu = function() {
   const menuPage = document.createElement('div')
   menuPage.innerHTML = `<h2> <span>Our </span> Menu </h2>
   
   <div class="appetizers">
       <h3>Appetizers</h3>
-      <img src="./src/images/appetizers.png" alt="">
+      <img id="appetizers" src="../src/images/appetizers.png" alt="">
   
       <div>
         <h4>Avocado Toast</h4>
@@ -49,7 +53,7 @@ const menu = function() {
   
   <div class="entrees">
       <h3>Entrees</h3>
-      <img src="./src/images/entrees.png" alt="">
+      <img id="entrees" src="../src/images/entrees.png" alt="">
   
       <div>
         <h4>Beyond Burger</h4>
@@ -94,7 +98,7 @@ const menu = function() {
   
   <div class="salads">
       <h3>Salads</h3>
-      <img src="./src/images/salads.png" alt="">
+      <img id="salads" src="../src/images/salads.png" >
   
       <div>
         <h4>Kale Caesar Salad</h4>
@@ -141,7 +145,7 @@ const menu = function() {
     <h3>Desserts</h3>
     <div class="desserts">
       <div>
-        <img src="./src/images/dessert-1.png" alt="">
+        <img id="desserts src="../src/images/dessert-1.png" alt="">
         <h4>Chocolate Avocado Mousse</h4>
         <p>a creamy chocolate mousse made with avocado, coconut milk, and maple syrup.</p>
         <p>₱ 100</p>
