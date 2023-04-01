@@ -168,4 +168,4 @@ const menu = function() {
   content.appendChild(menuPage)
 }
 
-
+export default menu;

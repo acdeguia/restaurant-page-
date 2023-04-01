@@ -9,3 +9,5 @@ divImg.classList = " banner"
 divImg.appendChild(banner)
 content.appendChild(divImg)
 }
+
+export default banner;

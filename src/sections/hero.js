@@ -38,3 +38,5 @@ restoImg.classList = ' resto-img'
 
 menuBtn.classList = 'menu-btn'
 }
+
+export default hero;

@@ -17,3 +17,5 @@ for(let i = 0; i < contact.length; i += 1) {
 }
     content.appendChild(contactSection)
 }
+
+export default contact;

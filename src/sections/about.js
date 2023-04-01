@@ -11,3 +11,5 @@ aboutPage.appendChild(aboutPara)
 aboutPage.classList = ' about'
 content.appendChild(aboutPage)
 }
+
+export default about;

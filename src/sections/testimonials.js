@@ -1,4 +1,4 @@
-const testimonialsSection = function(){
+const testimonials = function(){
   const testimonialsPage = document.createElement('div')
   testimonialsPage.innerHTML = `
   <div class="content">
@@ -29,3 +29,4 @@ const testimonialsSection = function(){
 }
 
 
+export default testimonials;
