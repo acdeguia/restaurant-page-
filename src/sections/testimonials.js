@@ -1,5 +1,8 @@
-const testimonials = function(){
-  const testimonialsPage = document.createElement('div')
+import quoteIcon from "../images/quote-icon.png";
+import pfp from "../images/pfp.png";
+
+const testimonials = function () {
+  const testimonialsPage = document.createElement("div");
   testimonialsPage.innerHTML = `
   <div class="content">
     <h2>What Are Customers Say About <span>Us</span></h2>
@@ -7,13 +10,13 @@ const testimonials = function(){
   </div>
   
   <div class="quote">
-    <img src="../src/images/quote-icon.png" alt="">
+    <img src=${quoteIcon} alt="">
     <p>
       I never thought vegan food could be so flavorful and satisfying! This restaurant has truly opened my eyes to the possibilities of plant-based cuisine.
     </p>
     
     <div class="info">
-      <img src="../src/images/pfp.png" alt="">
+      <img src=${pfp} alt="">
       <div class="name">
         <p>Wheein</p>
       <p>Korean Idol</p>
@@ -22,11 +25,10 @@ const testimonials = function(){
     </div>
   
   </div> 
-  `
-  testimonialsPage.classList = " testimonials"
-  
-  content.appendChild(testimonialsPage)
-}
+  `;
+  testimonialsPage.classList = " testimonials";
 
+  content.appendChild(testimonialsPage);
+};
 
 export default testimonials;
