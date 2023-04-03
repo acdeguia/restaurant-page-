@@ -147,12 +147,13 @@ const menu = function () {
   <div class="desserts-01">
     <h3>Desserts</h3>
     <div class="desserts">
-      <div>
-        <img id="desserts src=${dessert1} alt="dessert-1">
-        <h4>Chocolate Avocado Mousse</h4>
-        <p>a creamy chocolate mousse made with avocado, coconut milk, and maple syrup.</p>
-        <p>₱ 100</p>
-      </div>
+    <div>
+    <img src=${dessert1} alt="dessert-2">
+    <h4>Chocolate Avocado Mousse</h4>
+    <p>a creamy chocolate mousse made with avocado, coconut milk, and maple syrup.
+    </p>
+    <p>₱ 100</p>
+  </div>
   
       <div>
         <img src=${dessert2} alt="dessert-2">
