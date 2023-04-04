@@ -11,7 +11,6 @@ import "../src/style.css";
 header();
 hero();
 contact();
-banner();
 about();
 menu();
 testimonials();
