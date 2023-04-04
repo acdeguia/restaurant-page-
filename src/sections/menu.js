@@ -9,10 +9,24 @@ const menu = function () {
   const menuPage = document.createElement("div");
   menuPage.innerHTML = `<h2> <span>Our &nbsp;</span>Menu </h2>
   
-  <div class="appetizers">
+  <div div class="appetizers">
       <h3>Appetizers</h3>
-      <img id="appetizers" src=${appetizers} alt="">
-  
+      <div class= "img">
+        <img id="appetizers" src=${appetizers} alt="">
+          <div class= "label">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <p >Avocado Toast</p>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          
+          <div class="slider-dots">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+      </div>
+      
       <div>
         <h4>Avocado Toast</h4>
         <p>
@@ -56,7 +70,21 @@ const menu = function () {
   
   <div class="entrees">
       <h3>Entrees</h3>
-      <img id="entrees" src=${entrees} alt="">
+      <div class= "img">
+        <img id="entrees" src=${entrees} alt="">
+          <div class= "label">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <p >Avocado Toast</p>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          
+          <div class="slider-dots">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+      </div>
   
       <div>
         <h4>Beyond Burger</h4>
@@ -101,7 +129,21 @@ const menu = function () {
   
   <div class="salads">
       <h3>Salads</h3>
-      <img id="salads" src=${salads} >
+      <div class= "img">
+        <img id="salads" src=${salads} alt="">
+          <div class= "label">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <p >Avocado Toast</p>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          
+          <div class="slider-dots">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+      </div>
   
       <div>
         <h4>Kale Caesar Salad</h4>
@@ -144,36 +186,71 @@ const menu = function () {
       </div>
   </div>
   
-  <div class="desserts-01">
-    <h3>Desserts</h3>
-    <div class="desserts">
-    <div>
-    <img src=${dessert1} alt="dessert-2">
-    <h4>Chocolate Avocado Mousse</h4>
-    <p>a creamy chocolate mousse made with avocado, coconut milk, and maple syrup.
-    </p>
-    <p>₱ 100</p>
-  </div>
+  <div class="desserts">
+      <h3>Desserts</h3>
+      <div class= "img">
+        <img id="desserts" src=${dessert1} alt="">
+          <div class= "label">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <p >Avocado Toast</p>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          
+          <div class="slider-dots">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+      </div>
   
       <div>
-        <img src=${dessert2} alt="dessert-2">
+        <h4>Chocolate Avocado Mousse</h4>
+        <p>
+        a creamy chocolate mousse made with avocado, coconut milk, and maple syrup.
+        </p>
+        <p>
+          ₱ 100
+        </p>
+      </div>
+  
+      <div>
         <h4>Vegan Cheesecake</h4>
-        <p>a rich and creamy cheesecake made with cashews, coconut milk, and a graham cracker crust.</p>
-        <p>₱ 100</p>
+        <p>
+        a rich and creamy cheesecake made with cashews, coconut milk, and a graham cracker crust.
+        </p>
+        <p>
+          ₱ 100
+        </p>
       </div>
   
       <div>
-        <img src=${dessert3} alt="dessert-3">
         <h4>Berry Parfait</h4>
-        <p>layers of coconut yogurt, fresh berries, and granola, topped with a drizzle of agave nectar.</p>
-        <p>₱ 100</p>
+        <p>
+        layers of coconut yogurt, fresh berries, and granola, topped with a drizzle of agave nectar.
+        </p>
+        <p>
+          ₱ 100
+        </p>
       </div>
-    </div>
   
+      <div>
+        <h4>Fruit Sorbet </h4>
+        <p>
+        made with pureed fresh fruit, water, and a touch of sweetener.
+        </p>
+        <p>
+          ₱ 100
+        </p>
+      </div>
+  </div>
+ 
   
   </div>`;
   menuPage.classList = " menu";
   content.appendChild(menuPage);
 };
+
+
 
 export default menu;

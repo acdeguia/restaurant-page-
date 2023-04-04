@@ -35,15 +35,22 @@ const header = function(){
       logo.addEventListener("click", homeBtn);
     
       function homeBtn() {
-        window.scrollTo(0, 0);
+        window.scroll({top: 0, behavior: "smooth"})
       }
     
       function menuBtn() {
-        window.scrollTo(0, 1550);
+        // window.scrollTo(0, 1550 );
+        window.scrollTo({
+          top: 1550,
+          behavior: "smooth",
+        });
       }
     
       function aboutBtn() {
-        window.scrollTo(0, 750);
+        window.scrollTo({
+          top: 725,
+          behavior: "smooth",
+        });
       }
 }
 
