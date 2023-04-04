@@ -1,7 +1,5 @@
 # restaurant-page-
 
-https://acdeguia.github.io/restaurant-page-/index.html
-
 ⟱⟱⟱⟱⟱
 <br />
 [LIVE DEMO](https://acdeguia.github.io/restaurant-page-/index.html)
