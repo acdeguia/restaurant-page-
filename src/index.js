@@ -6,7 +6,7 @@ import contact from "./sections/contact";
 import menu from "./sections/menu";
 import footer from "./sections/footer";
 import testimonials from "./sections/testimonials";
-// import "./style.css";
+import "../dist/style.css";
 
 header();
 hero();
