@@ -21,6 +21,7 @@ const menu = function () {
           
           <div class="slider-dots">
               <span class="dot" onclick="currentSlide(1)"></span> 
+              
               <span class="dot" onclick="currentSlide(2)"></span> 
               <span class="dot" onclick="currentSlide(3)"></span>
               <span class="dot" onclick="currentSlide(4)"></span> 
@@ -70,21 +71,7 @@ const menu = function () {
   
   <div class="entrees">
       <h3>Entrees</h3>
-      <div class= "img">
-        <img id="entrees" src=${entrees} alt="">
-          <div class= "label">
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <p >Avocado Toast</p>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-          </div>
-          
-          <div class="slider-dots">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span> 
-            </div>
-      </div>
+      <img id="entrees" src=${entrees} >
   
       <div>
         <h4>Beyond Burger</h4>
@@ -129,21 +116,7 @@ const menu = function () {
   
   <div class="salads">
       <h3>Salads</h3>
-      <div class= "img">
-        <img id="salads" src=${salads} alt="">
-          <div class= "label">
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <p >Avocado Toast</p>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-          </div>
-          
-          <div class="slider-dots">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span> 
-            </div>
-      </div>
+      <img id="salads" src=${salads} >
   
       <div>
         <h4>Kale Caesar Salad</h4>
@@ -188,21 +161,7 @@ const menu = function () {
   
   <div class="desserts">
       <h3>Desserts</h3>
-      <div class= "img">
-        <img id="desserts" src=${dessert1} alt="">
-          <div class= "label">
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <p >Avocado Toast</p>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-          </div>
-          
-          <div class="slider-dots">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span> 
-            </div>
-      </div>
+      <img id="desserts" src=${dessert1} >
   
       <div>
         <h4>Chocolate Avocado Mousse</h4>
@@ -250,7 +209,5 @@ const menu = function () {
   menuPage.classList = " menu";
   content.appendChild(menuPage);
 };
-
-
 
 export default menu;
