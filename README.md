@@ -1,6 +1,6 @@
 ## TOP: Restaurant Page project
 
-⟱⟱⟱⟱⟱
+⟱⟱⟱
 <br />
 [LIVE DEMO](https://acdeguia.github.io/restaurant-page-/)
 
